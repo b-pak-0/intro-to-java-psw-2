@@ -1,5 +1,8 @@
 package examples;
 
+import java.util.Arrays;
+import java.util.Collections;
+
 public class parametersClass {
     public int x = 3; // attributes
     public int y = 5;
@@ -16,5 +19,9 @@ public class parametersClass {
         System.out.println("User's name is " + name + " .");
         System.out.println("They are " + age + " years old.");
         System.out.println("Their favorite decimal number is " + favoriteDecimal);
+    }
+
+    public void randInfo(String name, int age, double favoriteDecimal) {
+        // String[] name = name
     }
 }
