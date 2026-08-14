@@ -1,7 +1,3 @@
-package examples;
-
-import java.util.Arrays;
-import java.util.Collections;
 
 public class parametersClass {
     public int x = 3; // attributes
@@ -11,8 +7,8 @@ public class parametersClass {
         return x;
     }
 
-    public void printX() {
-        System.out.println(x);
+    public int getY() {
+        return y;
     }
 
     public void printInfo(String name, int age, double favoriteDecimal) {
@@ -21,7 +17,8 @@ public class parametersClass {
         System.out.println("Their favorite decimal number is " + favoriteDecimal);
     }
 
-    public void randInfo(String name, int age, double favoriteDecimal) {
-        // String[] name = name
+    public void testStats(String subject, int testScore1, int testScore2, int testScore3) {
+        double average = (testScore1 + testScore2 + testScore3) / 3;
+        System.out.println("In " + subject + ", you scored an average of " + average);
     }
 }

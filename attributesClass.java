@@ -1,4 +1,3 @@
-package examples;
 
 public class attributesClass {
     public int x = 3; // attributes

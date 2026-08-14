@@ -1,4 +1,3 @@
-package examples;
 
 public class methodsClass {
     public int x = 3; // attributes
@@ -8,7 +7,7 @@ public class methodsClass {
         return x;
     }
 
-    public void printX() {
-        System.out.println(x);
+    public int getY() {
+        return y;
     }
 }
