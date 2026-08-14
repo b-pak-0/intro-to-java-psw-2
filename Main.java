@@ -26,5 +26,8 @@ public class Main {
 
         // ----------------------------------------------------------------------------------------
 
+        constructorsClass constructorsClassObject = new constructorsClass(true);
+
     }
+
 }
